@@ -22,7 +22,7 @@ export default function NavBar() {
         <Text>Jogo</Text>
       </Pressable>
       <Pressable style={styles.link} onPress={() => router.push('/exp_acd')}>
-        <Text>Experiencia acadêmica</Text>
+        <Text>Experiencia Acadêmica</Text>
       </Pressable>
       <Pressable style={styles.link} onPress={() => router.push('/exp_pro')}>
         <Text>Experiencia Profissional</Text>
