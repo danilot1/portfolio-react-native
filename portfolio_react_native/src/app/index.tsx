@@ -1,14 +1,14 @@
 import { ScrollView, View, Text, StyleSheet, Linking, Image } from 'react-native';
-
+import NavBar from '@/components/NavBar';
 export default function Index() {
   return (
     <ScrollView style={styles.container}>
       <Image
-        source={require('@/assets/my_photo.png')} // ou use { uri: 'https://link-da-sua-foto.jpg' }
+        source={require('@/assets/my_photo.png')} 
         style={styles.photo}
       />
       <Text style={styles.title}>Portfólio - Danilo Teixeira</Text>
-
+        <NavBar />
       <Section title="Sobre Mim">
         <Bullet>- Estudante de Ciência da Computação na Universidade Católica de Pernambuco</Bullet>
         <Bullet>- Desenvolvedor de software com experiência em HTML, CSS e JavaScript</Bullet>
