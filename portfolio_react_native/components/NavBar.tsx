@@ -6,7 +6,7 @@ export default function NavBar() {
 
   return (
     <View style={styles.container}>
-      <Pressable style={styles.link} onPress={() => router.push('/')}>
+      <Pressable style={styles.link} onPress={() => router.push('/home')}>
         <Text>Home</Text>
       </Pressable>
       <Pressable style={styles.link} onPress={() => router.push('/sobre')}>
@@ -20,6 +20,12 @@ export default function NavBar() {
       </Pressable>
       <Pressable style={styles.link} onPress={() => router.push('/jogo')}>
         <Text>Jogo</Text>
+      </Pressable>
+      <Pressable style={styles.link} onPress={() => router.push('/exp_acd')}>
+        <Text>Experiencia acadêmica</Text>
+      </Pressable>
+      <Pressable style={styles.link} onPress={() => router.push('/exp_pro')}>
+        <Text>Experiencia Profissional</Text>
       </Pressable>
     </View>
   );

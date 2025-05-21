@@ -81,7 +81,7 @@ export default function Jogo() {
       )}
       ListFooterComponent={
         <View style={styles.voltar}>
-          <Link href="/">
+          <Link href="/home">
             <Text style={styles.voltarTexto}>← Voltar ao Portfólio</Text>
           </Link>
         </View>
