@@ -1,9 +1,12 @@
-import { ScrollView, View, Text, StyleSheet, Linking } from 'react-native';
+import { ScrollView, View, Text, StyleSheet, Linking, Image } from 'react-native';
 
-export default function Portfolio() {
+export default function Index() {
   return (
     <ScrollView style={styles.container}>
-      
+      <Image
+        source={require('src/assets/images/my_photo.png')} // ou use { uri: 'https://link-da-sua-foto.jpg' }
+        style={styles.photo}
+      />
       <Text style={styles.title}>Portfólio - Danilo Teixeira</Text>
 
       <Section title="Sobre Mim">
@@ -95,7 +98,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     flex: 1,
   },
-  
+  photo: {
+    width: 150,
+    height: 150,
+    borderRadius: 75,
+    alignSelf: 'center',
+    marginBottom: 20,
+  },
   title: {
     fontSize: 26,
     fontWeight: 'bold',
