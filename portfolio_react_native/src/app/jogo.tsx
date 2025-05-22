@@ -37,7 +37,7 @@ export default function Jogo() {
 
     if (bulls === 4) {
       Alert.alert('Parabéns!', 'Você acertou a senha!');
-      senha = gerarSenha(); // Reinicia a senha
+      senha = gerarSenha(); 
       setHistorico([]);
     }
   };
