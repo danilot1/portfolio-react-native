@@ -1,6 +1,6 @@
 import { ScrollView, View, Text, StyleSheet, Linking, Image } from 'react-native';
 import NavBar from '@/components/NavBar';
-export default function Home                                                                                                     () {
+export default function Home() {
   return (
     <ScrollView style={styles.container}>
       <Image

@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import NavBar from '@/components/NavBar';
 
-export default function Sobre() {
+export default function Exp_Acd() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
 
